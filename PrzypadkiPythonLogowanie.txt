@@ -1,0 +1,213 @@
+#ID 1
+
+from selenium import webdriver
+
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester123")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+
+#ID 2
+
+from selenium import webdriver
+
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 3
+
+from selenium import webdriver
+
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tetsre")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester123")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 4
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester258")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 5
+
+from selenium import webdriver
+
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester123")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 6
+
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 7
+
+from selenium import webdriver
+from selenium.webdriver.common.keys import Keys
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester123",Keys.ENTER)
+
+
+
+#ID 8
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester123")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/p/a").click()
+
+
+
+#ID 9
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("тестер")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("тестер125")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 10
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("тестер126")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 11
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("тестер")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester127")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 12
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("Tester123")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 13
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("TESTER")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("Tester124")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 14
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("TESTER123")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+#ID 15
+
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+driver.get('http://kmg.hcm.pl/testowanie/index.html')
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[1]").send_keys("tester")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").click()
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[2]").send_keys("tester124")
+driver.find_element_by_xpath("/html/body/div[1]/div[2]/input[3]").click()
+
+
+
+
+
+
+
+
